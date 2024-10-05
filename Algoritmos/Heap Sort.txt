@@ -12,5 +12,3 @@ na árvore
 -O Heap não possui pior caso, e utiliza menos espaço que o MergeSort.
 -Eficiente para identificar o menor/maior elemento do vetor já em cada iteração do algoritmo.
 -Pode ser usado em filas de prioridades.
-
-OBS: NÃO DA PRA FAZER PELO TEOREMA MESTRE

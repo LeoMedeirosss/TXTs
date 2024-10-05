@@ -20,3 +20,6 @@ QuickSort
 		       - melhor/medio caso: O(n logn)
 -Possui um melhor caso igual ao merge sort, mas o merge utiliza um array auxiliar de mesmo
 tamanho ue o original, o que demanda mais espaço de memória.
+
+OBS: NÃO DA PRA FAZER PELO TEOREMA MESTRE
+
