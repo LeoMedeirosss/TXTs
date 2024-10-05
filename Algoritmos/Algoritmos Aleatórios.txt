@@ -1,0 +1,18 @@
+Algoritmos aleatórios
+
+-Análise Probabilística:Usada para calcular o consumo de tempo médio de um algoritmo
+-Em relação a análise probabilistica, as vezes usa-se também para calcular o número médio de
+certas operações durante a execução de um algoritmo simples. Assim, conseguindo calcular o
+tempo de exec. do caso médio.
+
+-Existe uma função ordenação(i), com relação ao problema dos candidatos, que diz em qual
+posição o candidato está no "ranking dos melhores". Dessa forma, a lista formada por
+{ordenação(1), ordenação(2)... ordenação(n)} é uma permutação da lista de candidatos.
+
+-Um algoritmo é aleatorizado se seu comportamento for determinado não apenas por sua entrada,
+mas também por valores produzidos por um gerador de números aleatórios
+
+-Para garantir a aleatorização, o problema da contratação vamos alterá-lo:
+○ A cada dia um candidato será SORTEADO para fazer entrevista
+○ De forma que caso a lista dos candidatos (quando eles receberam um número de 1 a N)
+não foi criada de forma aleatória ainda sim a ordem das entrevistas terá sido aleatória

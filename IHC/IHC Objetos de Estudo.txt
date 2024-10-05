@@ -1,0 +1,58 @@
+IHC - Conceitos
+
+Objetos de estudo em IHC
+
+-Natureza da interação humano-computador
+	Envolve inverstigar o que ocorre enquanto s pessoas utilizam sistemas
+	interativos em suas atividades.
+
+-Contexto do uso
+	É relacionado a interação de pessoas com os sistemas interativos. Pessoas
+	inseridas em determinadas sociedades e contextos possuem conhecimentos e 
+	concepções próprias que refletem no modo com as atividades são feitas.
+
+-Características humandas
+	A forma como pessoas interagem enter si e com outras indivíduos ou artefatos
+	também influencia a interação humana-computador. Conhecer as características
+	humanas permite entender as limitações de cada um durante a interação.
+
+-Arquitetura de sist. computacionais
+	Sistemas devem ser construídos favorecendo a experiência do usuário. 
+	Dispositivos de input e output são os meios físicos responsaveis
+	por medias o contato físico entre ser humano e maquina.
+
+-Processo de desenvolvimento
+	O processo de desenvolvimento de um sistema interativo influencia a qualidade
+	do produto final. 
+
+
+-Benefícios de IHC
+	-Aumentar a qualidade de uso dos sistemas interativos-
+	-Reduz o custo do desenvolvimento-
+	-Reduz o número a o gravidade de erros cometidos pelo usuário-
+	-Reduz o custo de treinamento-
+	-Reduz o custo de suporte técnico-
+	-Aumenta as vendas e a fidelidade do cliente-
+
+-As 4 perspectivas de interação usuário-sistema:
+
+1 - Sistema: O usuário é considerado como um sistema computacinoal e a interação
+humano-computador aproxima-se da interação entre sistemas computacionais.
+Restrita por formatos de entrada padronizados e rígidos. EX: Ctrl C/Ctrl V, cmd
+de comando, formulário de cadastro.
+
+2 - Parceiro de Discurso: O sistema interativo deve participar da interação
+assumindo papel à altura de um ser humano, sendo capaz de raciocinal, interferir,
+tomar decisões e adquirir informações. O sistema de ve basicamente ser capaz de
+se comportar semelhante ao usuário. EX: Chatbot, Alexa.
+
+3 -  Ferramenta: O sistema considera um instrumento que auxilia o usuário na
+realização de suas tarefas. EX: Microsoft Office (Word, Excel), Canva.
+
+4 - Midia: O sistema interativo é visto como uma mídia, através do qual as pessoas
+se comunicam umas com as outras. A interação é vista como a comunicação entre 
+pessoas mediada por tecnologia. EX: Email, Redes Sociais(Twitter, Instagram...),
+Forum, Whatsapp.
+
+
+

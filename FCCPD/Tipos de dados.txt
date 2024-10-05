@@ -1,0 +1,38 @@
+Tipos de dados
+
+Análise exploratória - Etapa de pesquisa e observação. Busca criar uma familiaridade
+com os dados e procurar tendências, padrões e anomalias entre eles.
+Normalmente é o primeiro passo de uma análise de dados. 
+
+Análise Explanatória - Nessa etapa, é importante descrever a conclusão encontrada da
+análise exploratória e o porquê dela acontecer. Pode ser uma tendência observada, uma
+relação entre variáveis ou padrões que podem se repetir.
+O comum é a utilização de storytelling e focar a visualização em pontos destacados.
+
+Dados qualitativos - dados que visam explicar o "porquê" desses resultados. Com menos 
+ênfase em estatísticas e dados estruturados, e mais interpretações, motivações e 
+informações.
+Os métodos que conseguem dados qualitativos normalmente envolvem observação direta, 
+como entrevistas e grupos focais.
+Exemplo: Perguntas que exitem respostas mais descritivas e detalhadas, como informações
+pessoais.
+
+Dados quantitativos - tem por objetivo dar informações mais informais ou menos
+detalhadas. Quando são contagens, quantidades, etc.
+
+Séries temporais - é um conjunto de observações sobre uma variável que é ordenada no
+tempo.
+
+Dados discretos - dados que podem assumir apenas determinados valores ou valores
+limitados. Geralmente, se apresentam em números inteiros. Normalmente utilizam gráficos
+de barras. EX: Número de pessoas, tamanho do sapato.
+
+Dados contínuos - podem assumir números ilimitados de valores diferentes, já que seus
+valores não são fixos. Suas métricas podem ser compostas por partes menores e 
+individuais, o que aumenta o número de possibilidades. Representados por histogramas.
+EX: Altura, temperatura, idade.
+
+Dado categórico - tipo de dado que consiste em variáveis categóricas/ dados agrupados.
+
+
+

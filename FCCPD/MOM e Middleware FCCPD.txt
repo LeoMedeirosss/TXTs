@@ -1,0 +1,63 @@
+FCCPD - Resumo pra prova - MOM e Middleware
+
+Middleware - É uma camada de software que fica entre a camada mais alta: de usuários/aplicação
+e plataforma. Faz intermédio entre a aplicação e a plataforma.
+	-Tem o objetivo de suportar computadores e redes heterogêneos e, ao mesmo tempo,
+	oferecer uma visão única, além de um grande grau de transparência.
+
+	- Serviços como a invocação de métodos remotos, comunicação entre os processos,
+	notificação de eventos, replicação de dados compartilhados e transmissão de dados
+	em tempo real.
+
+MOM - Middleware orientado a mensagens.
+	- Proporcionam suporte extensivo para comunicação assíncrona e persistente.
+
+	- Esse sistema tem a essência de que é oferecido a capacidade de armazenamento
+	para mensagens, sem exigir que o remetente ou o receptor estejam ativos durante
+	a transmissão da mensagem.
+
+VANTAGENS MOM
+	- menor acoplamento pois o produtor e consumidor da mensagem não tem conhecimento
+	 um do outro
+
+
+- permite o envio de 1 para n.
+	- utiliza um broker, que pode ser considerado um servidor de mensagens,
+	 é o responsável por garantir o enfileiramento e armazenamento das mensagens
+	 , além de coordenar o envio e recebimento de mensagens de uma fila.
+
+- não há necessidadde dos participantes estarem permanentemente conectados à rede.
+	- Não precisa de sincronização.
+
+
+DESVANTAGENS MOM
+- Necessiade de um elemento responsável pela entrega das mensagens
+	- Pode se tornar um ponto único de falhas, contudo algumas soluções
+	 permitem implantações com alta disponibilidade.
+
+- Pode impactar negativamente no desempenho da solução.
+
+APLICAÇÕES
+	- Cotações de ações 
+	- Sensores
+	- Envios de mensagens de 1-n
+
+Exemplos de MOMs
+	- RabbitMQ
+	- HornetQ
+	- IBM MQSeries
+
+TIPOS DE ENVIOS DE MENSAGEM
+	- Filas
+		- MOM garante que um único consumidor 
+		  irá receber uma determinada mensagem que foi enviada.
+	- Tópicos
+		- MOM garante que todos os consumidores vão receber
+		  todas as mensagens enviadas.
+
+
+AMPQ
+	-
+
+
+

@@ -1,0 +1,43 @@
+FCCPD
+
+AMPQ - É um protocolo de rede que permite a troca de dados segura entre uma aplicação que
+utilizam diferentes tecnologias/plataformas.
+
+Filas:
+	-Armazenam mensagens no AMPQ
+
+	-Podem ser duráveis(capazes de sobreviver ao reinício do broker)
+
+	-Podem ser auto-deletáveis(excluídasa após a última conexão ser encerrada)
+
+	-Podem ser duráveis ou não (mantém mesmo que o servidor seja desligado/reiniciado)
+	
+	-Temporárias(contrário das duráveis).
+
+
+Exchanges - Entidade que diz para onde as mensagens devem ser enviadas.
+	
+	-Recebe as mensagens dos produtores e passa para as filas.
+
+	-Podem enviar as mensagens recebidas para 0 ou mais destinatários.
+
+	-Exchanges podem ser duráveis - sobreviver ao reinício do broker
+
+	-E podem ser auto-delete
+
+	-Podem ser de 4 tipos: Direct, Fanout, Topic, Headers
+
+
+Exchange Direct: Literalmente direto. A fila criada no AMQP é associada à exchange padrão
+	com a chave igual ao nome da fila.
+
+Exchange Fanout: Envia para todas as filas.
+
+Exchange Topic: Usa uma chave de roteamento(Formada por palavras separadas por ponto)
+	(ex - compras.prioridade.brasil)
+	-Usa caractéres especiais (# ou *). * substitui uma palavra e # substitui 0 ou mais.
+
+Exchange Headers: É possível encaminhar as mensagens quando pelo
+		menos um dos headers coincide (x-match:any)
+		Ou quando obrigatoriamente todos os headers
+		configurados no binding coincidirem (x-match:all).

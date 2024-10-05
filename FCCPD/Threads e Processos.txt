@@ -1,0 +1,51 @@
+Threads e Processos - Java
+
+programa concorrente - define ações que podem ser realizadas simulaneamente.
+
+programa paralelo - programa concorrente que é executado em um hardware paralelo
+			expõe as diversas máquinas separadamente.
+
+programa distribuido - programa paralelo projetado para executar uma rede 
+			de processadores autonomos que não compartlham 
+			  a memória principal.
+			- se comporta como uma única máquina.
+
+
+O processo é basicamente um programa em execução, juntamente com um 
+						conjunto de recursos.
+
+Normalmente um processo é composto por um ou mais threades e outros recursos,
+			como sockets, arquivos, etc.
+
+
+As threads são fluxos de execução que ocorrem e rodam dentro de um processo.
+
+As threads são as primeiras alternativas para se tirar proveito das
+					máquinas multinúcleos.
+
+Benefícios das threads:
+	-Rapidez para criar uma thread em relação ao processo.
+	-Rapidez para terminar uma thread em relação ao processo.
+	-Rapidez para chavear entre threads de um mesmo processo do que
+				do mesmo processo.
+	-Permite o paralelismo e melhor organização do programa.
+
+
+THREADS EM JAVA DE FATO:
+existem 2 maneiras para criar threads em java:
+estendendo a classe java.lang.Thread
+Implementando a interface java.lang.Runnable
+
+Métodos da classe Thread:
+run() - deve estar presente em todas as threads
+start() - registra a thread no escalonador
+getName()/setName - Atribui ou retorna o nome de uma thread.
+	Por default as threads são nomeadas numericamente.
+sleep() - faz com que a thread fique em estado de espera.
+		(Métodos principais, existem outros.)
+
+
+
+
+
+

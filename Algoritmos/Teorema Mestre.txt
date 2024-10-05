@@ -1,0 +1,17 @@
+Teorema Mestre
+
+-O método mestre fornece uma receita para resolver recorrências
+
+-TEOREMA MESTRE: T(n) = aT(n/b) + f(n)
+
+a = quantidade de novos subproblemas gerados em cada iteração
+
+b = tamanho da entrada aplicada 
+
+f(n) = custo associado à divisão do problema
+
+CASO 01: se f(n) = 0(n logb^a - e) -> e > 0 então T(n) = 0(n logb^a)
+
+CASO 02: se f(n) = 0(n logb^a) -> T(n) = 0(n logb^a log n)
+
+CASO 03: se f(n) = 0(n logb^a + e) -> e < 0 então T(n) = 0(f(n))

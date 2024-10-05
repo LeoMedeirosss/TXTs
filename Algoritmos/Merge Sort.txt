@@ -1,0 +1,19 @@
+MergeSort: Divisão e conquista
+
+Divisão:o problema é dividido em um número de subproblemas
+
+Conquista:os subproblemas são resolvidos recursivamente
+
+Combinação:as soluções dos subproblemas são combinadas visando a solução do problema
+original
+
+Divide o vetor na metade do vetor de origem, usando a recursividade.
+
+São realizadas divisões até que o novo vetor tenha apenas um elemento.
+
+Desvantagem:gasto extra de memória
+
+Complexidade de Tempo: O(N logN)
+
+MAIS RÁPIDO e EFICIENTE do que o Insertion, Selection e Bubble Sorts para 
+GRANDES QUANTIDADES DE DADOS.

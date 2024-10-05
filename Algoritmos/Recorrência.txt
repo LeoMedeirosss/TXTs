@@ -1,0 +1,11 @@
+Recorrência
+
+-Para analisar o consumo de tempo de um algoritmo recursivo é necessário resolver uma
+recorrência.
+
+-Recorrência é uma equação ou desigualdade que descreve uma função em termos de seu valor
+para entradas menores.
+
+-EX: O tempo de execução do pior caso T(n) do procedimento MergeSort pela recorrência:
+T(N)= Θ(1) se n = 1
+      2T(n/2) + Θ(n) se n > 1

@@ -1,0 +1,20 @@
+Algoritmos de busca em grafos
+
+1-Busca em largura - começa de um nó e explora toda a sua vizinhança imediata
+antes de visitar os demais nós.
+
+-começa por um vértice (por ex:S) especificado pelo usuário
+
+-visita S e depois visita todos os vizinhos de S, depois todos os vizinhos dos
+vizinhos, e assim por diante.
+
+-usa uma fila de vértices
+
+
+2-Busca em profundidade - a partir de um determinado nó, seleciona um caminho
+determinado vizinho e atravessa completamente esse caminho antes de fazer o backtracking
+
+-oferece ferramenta para simular possíveis caminhos para domelagem de cenários
+
+-pensado originalmente para resolver o problema de sair de um labirinto
+

@@ -1,0 +1,19 @@
+Recursividade:
+
+-Utilizado na programação que quebra o problema em subproblemas menores, chegando a
+um problema que possa ser resolvido de forma simples
+
+-Escreve soluções mais práticas e define um problema em termos de uma ou mais versões
+menores do mesmo problema.
+
+-Uma função é chamada de recursiva quando dentro do código existe uma chamada
+para si mesma.
+
+-Exige MAIS ESPAÇO DE MEMÓRIA e é MAIS LENTO que a versão iterativa.
+
+-EXEMPLO: Cálculo do fatorial de um número = n! = n*(n-1)!
+		Fatorial(4) return 4* fatorial(3)
+		Fatorial(3) return 3* fatorial(2)
+		Fatorial(2) return 2* fatorial(1)
+		Fatorial(1) return 1* fatorial(0)
+		(0==0) <= return 1

@@ -1,0 +1,49 @@
+FCCPD - CLOUD/NUVEM
+
+Nuvem-é um tipo de sistema paralelo e distribuído que consiste de uma coleção de
+	maquinas virtualidazas e interconectadas que são provisionadas de forma
+	dinâmica e apresentados como um ou vários recursos computacionais unificados.
+
+	- O provedor da nuvem deve ter a capacidade de provisionar de forma automática
+	 os recursos computacionais.
+
+	- Tem amplo acesso de rede, de qualquer lugar e por qualquer dispositívo.
+
+	- Devem poder ser compatilhados para servir múltiplos clientes.
+
+	- Capacidades podem ser provisionadas de forma rápida e elástica,
+	 em vários casos de forma automática.
+
+	- Devem controlar e otimizar o uso dos recursos de forma automática, pela
+	 capacidade de medição.
+
+Tipos de Nuvem:
+
+	-Privada: Usada exclusivamente para uma organização.
+		-Pode ser gerenciada pela própria organização ou por um terceiro.
+
+	-Compartilhada: Usada por várias organizações.
+		-Podendo ser gerenciada tanto pelas próprias empresas quanto por terceiros.
+		-Permite o compartilhamento de recursos entre os participantes.
+
+	-Pública: Disponibilizada para o público geral ou um grande nicho de mercado.
+		-Serviços da nuvem comercializados.
+
+	-Híbrida: Compõe de duas ou mais nuvens(privadas/públicas) que se apresentam como
+		entidades únicas, mas que são ligadasa por tecnologias padronizadas.
+
+
+Modelos de computação em Nuvem:
+
+	-Infraestrutura como serviço (IaaS):Capacidade de provisionar processamento.
+		- Oferece ao cliente a habilidade de implantar e executar qualquer software
+		 podendo incluir sistemas operacionais e aplictivos(AWS, IBM Cloud...)
+
+	-Plataforma como serviço (PaaS):Capacidade de implantar na infraestrutura da nuvem.
+		-Utiliza de linguagens de programação e ferramentas suportadas pelo
+		 provedor da nuvem(Docker, Heroku, Google App Engine...)
+
+	-Software como serviço (SaaS):Capacidade de disponibilizar com acesso por meio
+						da internet.
+		-O fornecedor do software que fica responsável por seu gerenciamento.
+					(Salesforce, Netflix, Slack...)

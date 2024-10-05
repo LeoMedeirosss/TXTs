@@ -1,0 +1,22 @@
+QuickSort
+
+-Assim como o Merge, é baseado na técnica da divisão e conquista
+
+-É particionado em duas partes a partir de um *PIVOT*
+
+-O particionamento é realizado de forma recursiva até chegar em um único elemento.
+	Onde os elemntos menores que o PIVOT devem ser colocados à sua esquerda
+	e os maiores a direita.
+
+-Funcionamento:
+-Divisão:A partir do pivot o vetor é particinado em 2 subvetores(menores a esquerda e maiores
+	a direita
+
+-Conquista:Os subvetores são ordenados a partir de seu próprio pivot, utilizando a recursividade
+
+-Combinação:Os elementos são ordenados no vetor de origem ao longo das chamadas recursivas
+
+-COMPLEXIDADE DE TEMPO - pior caso: O(N^2)
+		       - melhor/medio caso: O(n logn)
+-Possui um melhor caso igual ao merge sort, mas o merge utiliza um array auxiliar de mesmo
+tamanho ue o original, o que demanda mais espaço de memória.

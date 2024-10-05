@@ -1,0 +1,55 @@
+FCCPD
+
+Métricas de desempenho: Escabilidade, temp/resposta e taxa de transferência.
+
+
+Programação concorrente: Ações que podem ser realizadas simultaneamente.
+	Ordem parcial das instruções
+
+Programação paralela: Programa concorrente projetado para executar em um hardware
+	paralelo.
+	Expõe usuário as diversas máquinas separadamente.
+
+Programação distribuida: É um programa paralelo projetado para executar em uma
+	rede de processadores autônomos que não compartilha memória principal.
+
+
+Processos:
+	É uma abstração de um programa em execução
+	Está associado a Programa em execução e um conjunto de recursos
+Esses recursos podem são espaços de endereçamento, uma ou mais threads e outros recursos,
+	como sockets, arquivos abertos, atributos...
+
+	
+Threads:
+	Um fluxo de execução que rodam dentro de um processo
+	Sequencia de instruções a serem executadas dentro de um programa.
+
+Benefícios das Threads:
+	É mais rápido criar uma thread do que um processo.
+	É mais rápido terminar uma thread que um processo.
+	É mais rápido chavear entre threds de um mesmo processo do que entre
+	processos.
+
+	Threads podem se comunicar sem invocr o núcleo já que compartilham
+	memória e arquivo.
+
+	Permite paralelismo de atividades e melhor organização do programa.
+
+Multithreading:
+	Refere-se à habilidade do Sistema Operacional em suportar múltiplas threads
+	em execução em um mesmo.
+	
+Ciclo de Vida:
+	1)Novo - Está nesse estado quando é criada.
+	2)Executável - Quando for ativada. - Originado por uma operação start()
+	3)Encerrado - Encerra a execução da thread.
+	4)Bloqueado - Para sair do estado de bloq e voltar para o estado de exec,
+	uma das seguintes operações deve ocorrer:
+	Retornar após o tempo especificado, retornar com notify/notifyall.
+
+
+
+
+
+	

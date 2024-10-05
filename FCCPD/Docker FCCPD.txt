@@ -1,0 +1,22 @@
+FCCPD
+
+Docker - É um sofrware de open code utilizado para implantar aplicativos dentro de 
+	containers virtuais. Serve para eliminar a frase de que 'na minha maquina
+		não funciona'.
+
+Dockerfile - É a forma de criar as imagens dos dockers. Basicamente um arquivo de config.
+
+DockerImage - É um arquivo executável independente utilizado para criar um contêiner.
+		Essa imagem contém todsa as bibliotecas, dependências e arquivos
+			que o contêiner precisaa ter para ser executado.
+
+Comandos:
+
+Create - Criar um conteiner
+Run - Rodar o conteiner
+Ps - Listar todos os conteiners em execução
+Exec - Permite executar comandos em um conteiner em execução
+Pause - Pausa a rodagem do conteiner
+Start - Tirar o conteiner do pause
+Stop - Para a rodagem do conteiner
+Rm - Remove
