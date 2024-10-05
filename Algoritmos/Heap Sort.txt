@@ -8,7 +8,7 @@ HeapSort
 -O processo é realizado até que todos os elementos do vetor sejam dispostos
 na árvore
 
--complexidade: O (N logN)
+-complexidade: O (N logN) <=
 -O Heap não possui pior caso, e utiliza menos espaço que o MergeSort.
 -Eficiente para identificar o menor/maior elemento do vetor já em cada iteração do algoritmo.
 -Pode ser usado em filas de prioridades.
