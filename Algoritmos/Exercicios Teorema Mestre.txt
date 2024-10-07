@@ -1,0 +1,32 @@
+1a)T(n)=3T(n/3)+n^2 = a=3  b=3  f(n)=n^2 
+nlog^3base3 -> n^1 = n^2 -> CASO 3 -> T(n) = 0(n^2)
+
+1b)T(n)=5T(n/4)+n = a=5  b=4  f(n)=n
+nlog^5base4 =~ 1.16 -> n^1.16 = n -> CASO 1 -> T(n) = 0(n^1.16)
+
+1c)T(n)=4T(n/2)+n^3 = a=4 b=2 f(n)=n^3
+nlog^4base2 = 2 -> n^2 = n^3 -> CASO 3 -> T(n) = 0(n^3)
+
+1d)T(n)=6T(n/3)+nlogn = a=6 b=3 f(n)=nlogn
+nlog^6base3 =~ 1.61 -> CASO 1 -> T(n) = 0(n^1.61)
+
+1e)T(n)=2T(n/2)+nlogn = a=2 b=2 f(n)=nlogn
+nlog^2base2 -> n^1 = nlogn -> CASO 2-> 0(nlog^2 n)
+
+2a)9T(n/3)+n^2 = a=9 b=3 f(n)=n^2
+nlog^9base3 = n^2 = n^2 -> CASO2 -> 0(n^2 log n)
+
+2b)T(n)=2T(n/4)+logn = a=2 b=4 f(n)=logn
+nlog^2base4 = n^1/2 = logn -> CASO 1 ->0(n^1/2)
+
+2c)7T(n/2)+n^2 = a=7 b=2 f(n)=n^2
+nlog^7base2 =~ n^2.8 = n^2 -> CASO 1 -> 0(n^2.8)
+
+2d)T(n)=3T(n/3)+nlog^2n = a=3 b=3 f(n)=nlog^2n
+nlog^3base3 = n^1 -> CASO 3 -> 0(nlog^2n)
+
+
+​
+
+ 
+ 
