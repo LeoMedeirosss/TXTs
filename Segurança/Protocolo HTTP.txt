@@ -8,4 +8,5 @@ requisição e o servidor responde com uma resposta equivalente.
 1-Conexão TCP-> Cliente manda uma requisição HTTP para o servidor, passa pela camada de
 transporte(TCP) do cliente, vai para a camada de rede(IP) do cliente, passa pela camada de
 rede do servidor, camada de transporte do servidor para chegar a camada de aplicação(HTTP)
-do servidor. Em seguida, o servidor manda a resposta para o cliente.
+do servidor. Em seguida, o servidor manda a resposta para o cliente
+

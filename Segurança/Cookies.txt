@@ -1,0 +1,6 @@
+O mecanismo de cookies é muito utilizado para dar a ideia de estado no protocolo HTTP
+já que esse não possui estado.
+Trata-se de dois cabeçalhos, sendo um de requisição e outro de resposta(Set-ccokie e Cookie).
+
+Caso alguém obtenha acesso aos cookies de outro usuário, isso se denomina sequestro de sessão.
+

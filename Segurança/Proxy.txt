@@ -1,0 +1,14 @@
+HTTP proxy é um servidor intermediario que atua como ponte entre o cliente e o servidor.
+Faz a mediação das requisições HTTP que o dispositivo envia para um servidor.
+
+FUNCIONAMENTO:
+Cliente envia uma requisição para o servidor
+
+Proxy recebe e processa a reuisição, filtrando o conteudo com base nas políticas de segurança
+O proxy também analisa e modifica a requisição para funs de otimização e autentica o usuário.
+
+Proxy encaminha a requisição ao servidor de destino, agindo em nome do cliente.
+
+Servidor responde ao proxy, enviando uma resposta de por exemplo, uma página HTML.
+
+Proxy devolve a resposta ao cliente.
