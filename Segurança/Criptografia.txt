@@ -1,0 +1,57 @@
+Criptografia é uma área da criptologia que estuda e pratica principios e técnicas
+para comunicação na presença de adversários(terceiros).
+
+Pra que serve?
+-Confidenciabilidade:Apenas os recipientes dos dados possam entender.
+-Integridade:Garantia de que os dados não serão modificados sem que seja detectado.
+-Não-repúdio:garantia de quem cria ou envia uma info não seja capaz de negar oq fez.
+-Autenticação:garantia de que o emissor e receptor é capaz de chegar a identidade da
+origem e/ou destino da mensagem.
+
+TIPOS DE CRIPTOGRAFIA 
+
+-Simétrica{
+    Mais antiga, unica usada até os anos 70.
+    Utiliza a mesma chave para cifrar e decifrar dados.
+    Tanto o remetente quanto o destinatário compartilham a mesma chave secreta.
+    Caso a chave seja comprometida, qualquer pessoa poderá acessar os dados protegidos.
+    O algoritmo precisa ser tail que, mesmo que o adversários conheça o mecanismo,e possua exemplos de textos cifrados, ele seja incapaz de inferir a chave utilizada.
+    Como pode ser descoberta?{
+        Com ataques de força bruta, que consiste em tentar todas as possíveis combinações.
+        Com ataques de criptoanálise, que tentam deduzir o texto plano a partir de características no texto crifrado.
+    }
+    Cifra de fluxo x Cifra de bloco{
+        Fluxo{
+            o dado é cifrado bit a bit ou byte a byte
+            geralmente rápidas e pequenas, é comum encontrar essa cifra em dispositivos com pouco podes computacional.
+            tendem a ser mais eficientes que as cifras de bloco
+            para a utilização prática, é usada um gerador de chaves de fluxo.A ideia é utilizar a chave como semente para a geração da keu stream.
+            em relação a geração de chaves criptográficas, nunca devem ser utiliazdos Pseudorandom Number Generators(PRNGs).
+        }
+
+        Bloco{
+            o dado é cifrado em blocos de bits, normalmente de 64 ou 128 bits.
+            cifrar a comunicação de computadores na internet.
+            o modo de operação especifica como uma cifra de bloco com tamanho fixo pode ser estendida para processar mensagens de outros tamanhos.
+            considerado o modo de operação mais simples, que divide a mensagem em blocos e cifra cada bloco separadamente.
+            ECB{
+                no modo ECB porém, a cifra em blocos possui baixa difusão, pois cifra blocos identicos em clobos cifrados identicos.
+            Ou seja:Não use o modo ECB.
+            }
+            CBC{
+                no modo CBC, considerado o modo de operação mais popular e presente em praticamente todas as bibliotecas e resolve o problema da falta de difusão do ECB.
+                sua operação consiste em realizar um XOR entre o resultado do bloco anterior e o seguinte a ser cifrado
+
+            }
+        }
+    }
+
+    Hash{
+    É uma função matemática que transforma uma enrtada de qualquer tamanho em uma de comprimento fixo(valor hash)
+    exemplos de algoritmos de Hash(MD5,SHA-1,SHA-256,SHA-3)
+    Autenticação de mensagens(Utilizada para a Integridade dos dados)
+    Assinaturas digitais(amplamente utilizadas para avaliar a assinatura e verificação dos dados)
+    Derivação de chaves(utilizadas para a geração de chaves em protoolos de comunicação)
+    Armazenamento de senhas(utilizadas para armazenar resumos de senhas em sistemas)
+    }
+}
