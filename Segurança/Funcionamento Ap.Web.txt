@@ -1,0 +1,36 @@
+Uma aplicação web funciona num modelo cliente-servidor, onde um cliente
+solicita algo ao servidor, que por sua vez realiza um processamento adequado
+e retorna o resultado para o cliente.
+
+Exemplos de Servidor Web:
+• Apache
+• Microsoft IIS
+• NGINX
+• Lighttpd
+• LiteSpeed Web Server
+
+Exemplos de Linguagem BackEnd
+• Java
+• GoLang
+• Ruby
+• PHP
+• Python
+• C#
+
+Exemplos de Cliente Web
+• Google Chrome
+• Mozilla Firefox
+• Microsoft Edge
+• Safari
+• Opera
+
+Exemplos de Linguagem FrontEnd
+• HTML*
+• CSS*
+• JavaScript*
+• Flash
+• Applet Java
+
+*= principais
+
+

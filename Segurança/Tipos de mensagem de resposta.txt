@@ -1,0 +1,15 @@
+Respostas HTTP:
+2xx=Sucesso
+200=OK
+201=Created
+
+3xx=Redirecionamento
+301=Movido permanentemente
+302=Found
+
+4xx=Erro do cliente
+401=Não autorizado
+403=Proibido(Forbidden)
+404=Not Found
+
+500=Erro interno do servidor

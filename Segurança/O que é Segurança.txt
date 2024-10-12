@@ -1,0 +1,28 @@
+A palavra segurança tem vários significados dependendo do ponto de vista. Mas no geral, 
+é o conjunto de medidas visando à proteção de riscos, perigos ou perdas a pessoas ou coisas.
+
+Tudo depende de contra o que aquilo é seguro ou não.
+
+Um software seguro é um software que oferece garantias racionais de que certos eventos
+indesejados específicos não vão ocorrer com facilidade.
+
+Vulnerabilidade se determina por um ponto onde ocorre a concretização dessa tal vulnerabi-
+lidade em um software.
+
+TRÍADE CIA - Confidencialidade, Integridade e Disponibilidade.
+
+Princípios de Segurança:
+-Princípio do privilégio minimo - somente pode fazer tal coisa no software pessoas específicas
+
+-Segurança em camadas - mais de uma autenticação
+
+-Não confiar somente em segurança por obscuridade - isso é, não é porque não é mostrado
+que ninguem nunca vai descobrir.
+
+-Habilite opções de segurança por padrão
+
+-Avalie relações de confiança
+	-Assuma que sistemas são inseguros
+	-Assuma que inputs não serão regulares
+	-Assuma que sistemas tem falhas
+	-Negue tudo por padrão

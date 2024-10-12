@@ -1,0 +1,11 @@
+O Hypertext Transfer Protocol (HTTP) é o protocolo utilizado para
+comunicação entre o cliente e o servidor em aplicações web.
+
+É um protocolo da camada de aplicação, que opera sobre o TCP, tendo a porta padrão 80.
+Seu modelo de operação é orientado a requisição e resposta, onde o cliente realiza uma
+requisição e o servidor responde com uma resposta equivalente.
+
+1-Conexão TCP-> Cliente manda uma requisição HTTP para o servidor, passa pela camada de
+transporte(TCP) do cliente, vai para a camada de rede(IP) do cliente, passa pela camada de
+rede do servidor, camada de transporte do servidor para chegar a camada de aplicação(HTTP)
+do servidor. Em seguida, o servidor manda a resposta para o cliente.
