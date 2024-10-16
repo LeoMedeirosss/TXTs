@@ -18,6 +18,21 @@ ATRIBUTOS{
         Define qual caminho o cookie estará disponível ou não
     }
     SameSite{
-        
+        define em quais situações um cookie é enviado em requisições "cross-site"
+        Existem 3 possíveis valores:
+            • None: indica que não há restrições nas requisições vindas de outros sites. O valor
+            none só pode ser utilizado em cookies marcados com a flag secure.
+
+            • Lax: flexibiliza o envio dos cookies em requisições cross-site apenas para
+            navegação de top-level e utilizando métodos “seguros”, a saber: GET e HEAD.
+
+            • Strict: não permite o envio de cookies em requisições cross-site.
+    }
+    flag Secure{
+        basicamente, define que o cookie só poderá ser enviado em requisições HTTPS
+    }
+    HTTPOnly{
+        determina que o cookie será acessado exclusivamente em requisições HTTP,
+        não devendo estar disponível para mecanismos client-side.
     }
 }

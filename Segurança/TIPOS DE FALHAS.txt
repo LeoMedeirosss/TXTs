@@ -4,5 +4,6 @@ Tokens{
 }
 
 Cookies{
-    ataques pelo domínio
+    Ataques pelo domínio
+    Manipulação de tokens de sessão através de requisições sem criptografia.
 }

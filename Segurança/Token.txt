@@ -10,4 +10,3 @@ Exemplos clássicos onde isso pode ocorrer são:
 • Utilização de números sequenciais;
 • Geração baseada em tempo;
 • Números aleatórios “fracos”.
-
