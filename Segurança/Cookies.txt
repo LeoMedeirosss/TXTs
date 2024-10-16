@@ -4,3 +4,20 @@ Trata-se de dois cabeçalhos, sendo um de requisição e outro de resposta(Set-c
 
 Caso alguém obtenha acesso aos cookies de outro usuário, isso se denomina sequestro de sessão.
 
+ATRIBUTOS{
+    Domain{
+        Define em qual domínio o cookie vai estar disponível
+        Session Fixation{
+            Quando não há alteração do valor do cookie entre uma
+            sessão não autenticada e uma sessão autenticada. Gera um aumento na superfície de ataque.
+            Como corrigir? Garantindo a regeração do token ao transicionar entre 
+            uma sessão não autenticada e uma sessão autenticada
+        }
+    }
+    Path{
+        Define qual caminho o cookie estará disponível ou não
+    }
+    SameSite{
+        
+    }
+}

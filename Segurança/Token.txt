@@ -1,0 +1,13 @@
+Utilização:
+Tokens utilizados para verificar se o email cadastrado pertence ao usuário;
+Tokens utilizados para prevenir o CSRF
+Tokens utilizados como segundo fator de autenticação;
+Tokens utilizados em funcionalidades de “esqueci minha senha”;
+
+Ainda que não haja a utilização de dados dos usuários na geração do
+token, ainda é possível que estes sejam previsíveis. 
+Exemplos clássicos onde isso pode ocorrer são:
+• Utilização de números sequenciais;
+• Geração baseada em tempo;
+• Números aleatórios “fracos”.
+

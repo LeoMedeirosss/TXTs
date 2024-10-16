@@ -1,0 +1,8 @@
+Tokens{
+    Geração de tokes a partir de DADOS DO USUÁRIO
+    Geração de tokes PSEUDOALEATÓRIOS previsíveis
+}
+
+Cookies{
+    ataques pelo domínio
+}
