@@ -1,0 +1,15 @@
+O HTTPS, em último caso, nada mais é do
+que o HTTP dentro de um túnel TLS
+
+FUNCIONAMENTO{
+    1-Estabelece conexão TCP
+    2-Começa a estabelecer conexão TLS
+    3-Cliente manda a mensagem na camada de aplicação, passando pela camada de transporte(TCP) e rede(IP)
+    4-Mensagem chega ao servidor
+    5-Servidor manda resposta para o cliente de volta.
+    6-Servidor manda a certificação e a "key exchange" para o cliente para que a mensagem possa ser checada.
+    7-Cliente manda a sua "key exchange" para o servidor(agora, ambas as partes computam a mesma chave)
+    8-Conexão TLS estabelecida com sucesso.
+    9-Cliente manda requisição HTTP, agora passando pelo TLS, camada de transporte e camada de rede.
+    10-Usando o key exchange, a requisição é criptografada, chegando no servidor.
+}

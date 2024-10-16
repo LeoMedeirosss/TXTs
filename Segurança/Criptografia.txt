@@ -55,3 +55,35 @@ TIPOS DE CRIPTOGRAFIA
     Armazenamento de senhas(utilizadas para armazenar resumos de senhas em sistemas)
     }
 }
+
+
+-Assimétrica{
+    1. Cada um dos usuários do sistema criptográ fico precisa gerar duas chaves, 
+    uma para cifrar e outra para decifrar as mensagens.
+    2. Cada usuário precisa tornar disponível uma das duas chaves, esta
+    será utilizada pelos remetentes para cifrarem as mensagem; trata-se
+    da chave pública.
+    3. Se Bob deseja enviar uma mensagem para Alice, ele deve cifrar a
+    mensagem usando a chave pública pertencente a Alice.
+    4. Quando Alice recebe a mensagem, apenas ela deve ser capaz de
+    decifrá-la, pois apenas ela possui a sua chave privada.
+
+    RSA{
+        Cenário: Bob quer mandar uma msg para Alice.
+
+        Passo 1: Bob cifra e envia a mensagem(PublicKey) a Alice.
+        Passo 2: Bob "assina"(PrivateKey) a mensagem e manda para Alice.
+        Passo 3: Alice verifica a mensagem enviada por Bob(decifra o hash com a chave pública de Bob)
+    }
+}
+
+Autoridade Certificadora:
+Trata-se de uma entidade responsável por emitir, revogar e distribuir
+certificados digitais e tem como premissa a confiança nesta entidade.
+
+Quem seriam essas autoridades certificadoras? Normalmente são
+empresas que prestam esse tipo de serviço e já estão embarcadas nos
+sistemas operacionais modernos.
+
+Sim, a premissa de uma Autoridade Certificadora é a “confiança” nos
+certificados emitidos por ela.
