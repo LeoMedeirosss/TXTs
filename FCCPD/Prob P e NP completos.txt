@@ -1,0 +1,24 @@
+-A complexidade de um problema computacional é o consumo de tempo
+do melhor algoritmo possível para o problema.
+
+Classificação dos problemas com base na complexidade:
+
+Problemas fáceis(polinomiais){
+    Um algoritmo que resolve um dado problema é polinomial se
+    o seu consumo de tempo no pior caso é limitado por um
+    polinômio no tamanho das instâncias do problema.
+
+    EX: Problema de fatoração: o tamanho da instância é o número
+    de digitos de N(cerca de log n)
+
+    EX2: Problema de ordenação de elementos:O objetivo é ordenar uma lista de 
+    𝑛 números em ordem crescente ou decrescente.
+
+    O algoritmo é polinomial se existe um número i(o mesmo
+    para todas as instâncias, tal que o consumo de tempo do
+    algoritmo seja O(n^i))
+}
+
+Problemas difíceis(NP-completos){
+    
+}
