@@ -1,0 +1,42 @@
+Programação dinâmica{
+    É um paradigma de projeto de algoritmos
+    Paradigma é um exemplo que serve como modelo, um padrão.
+
+    Exemplos:Recursividade, divisão e conquista,
+    balanceamento e algoritmos gulosos.
+
+    É aplicavel a problemas em que a solução ótima pode
+    ser computada a partir das soluções de seus subproblemas
+    que, previamente computadas e memorizadas, podem ser 
+    sobrepostas para gerar a solução do problema.
+
+    Assim, a programação dinâmica consiste em computar a
+    solução de todos os possíveis subproblemas de um problema.
+
+    Uma grande vantagem é que a vez que um subproblema é resolvido
+    e sua resposta é armazenada na matriz, a solução deste
+    subproblema nunca mais será recalculada.
+
+    EXEMPLOS:
+
+    Sequência de Fibonacci{
+        Existe uma regularidade mametática.
+
+        Trata-se do exemplo do crescimento da populaçõa dos coelhos.
+
+        Fn=Fn-1 + Fn-2
+    }
+
+    Top-Down x Bottom-Up{
+        Top Down é mais fácil de se pensar no problema, já
+        Bottom-up é mais complexo de se formular o problema.
+
+        O código do top-down é mais simples com regras simplificadas,
+        já o top-down é inviavel quando há muitas condições.
+
+        O top-down resolve apenas os subproblemas que são necessários,
+        já o top-down resolve todos os subproblemas do problema original.
+    }
+
+    
+}

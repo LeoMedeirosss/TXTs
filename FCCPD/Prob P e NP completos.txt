@@ -19,6 +19,28 @@ Problemas fáceis(polinomiais){
     algoritmo seja O(n^i))
 }
 
-Problemas difíceis(NP-completos){
-    
+Problemas difíceis(NP e NP-completos){
+    Problemas de decisão em que é possível verificar a validade da solução em
+    tempo polinomial.
+    NP= Nondeterministic polynomial time
+
+    EX de problemas NP: Soma de subconjuntos e satisfatibilidade booleana(SAT)
+
+    NP Completos{
+        Classe de problemas NP mas são os mais difíceis da classe.
+
+        Estão em NP - solução pode ser verificada em tempo polinomial
+
+        São NP-difíceis - qualquer problema em NP pode ser transformado nesse
+        problema em tempo polinomial
+
+        EX: Caixeiro Viajante, caminho Euleriano e o problema da mochila(knapsack)
+    }
+    Problemas NP são problemas para os quais a solução pode ser 
+    verificada em tempo polinomial, mas não necessariamente sabemos 
+    se podem ser resolvidos em tempo polinomial.
+
+    Problemas NP-Completo são aqueles que são os mais difíceis dentro da classe NP
+    pois resolver qualquer um deles em tempo polinomial significaria resolver
+    todos os problemas em NP em tempo polinomial.
 }

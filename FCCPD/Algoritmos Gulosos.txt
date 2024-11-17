@@ -1,0 +1,35 @@
+Algoritmos Gulosos{
+    É uma estratégia para solução de problemas
+
+    No geral, é um algoritmo que toma decisões que de momento
+    parecem ser a melhor, sem considerar as implicações futuras
+    dessa tal escolha.
+
+    As escolhas feitas não podem ser desfeitas. O algoritmo não
+    volta atráws, mesmo que, no final, a solução não seja a ótima
+
+    Os algoritmos gulosos são muito rápidos e eficientes.
+    Contudo, os problemas que admitem soluções gulosas
+    são um tanto raros.
+
+    Máximo x Maximal
+
+    S é uma coleção de subconjuntos{1,2,...,n}
+
+    Um elemento X de S é máximo se não existir um elemento Y
+    em S maior que X.
+
+    Um elemento X de S é maximal se não existir Y em S tal que
+    Y está em X.
+
+    Ou seja, se nenhum elemento de S é superconjunto do próprio
+    X.
+
+    Sejam {1,2}, {2,3}, {4,5}, {1,2,3}, {1,2,4}, {2,3,4,5} e 
+    {1,3,4,5} os elementos da coleção S.
+    ○ Então S tem dois elementos máximos: 
+    {2,3,4,5} e {1,3,4,5}.
+    Há quatro elementos maximais: {1,2,3}, {1,2,4}, 
+    {2,3,4,5} e {1,3,4,5}.
+
+}
